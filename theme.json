@@ -4,6 +4,68 @@
     "layout": {
       "contentSize": "840px",
       "wideSize": "1100px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "background",
+          "color": "rgb(71,100,180)",
+          "name": "Background"
+        },
+        {
+          "slug": "text",
+          "color": "rgb(0,0,0)",
+          "name": "Text"
+        },
+        {
+          "slug": "text_hover",
+          "color": "rgba(0,0,0,0.7)",
+          "name": "Text Hover"
+        },
+        {
+          "slug": "white",
+          "color": "rgb(0,0,0)",
+          "name": "White"
+        },
+        {
+          "slug": "black",
+          "color": "rgb(0,0,50)",
+          "name": "Black"
+        },
+        {
+          "slug": "red",
+          "color": "rgb(230,0,100)",
+          "name": "Red"
+        },
+        {
+          "slug": "yellow",
+          "color": "rgb(255,220,28)",
+          "name": "Yellow"
+        },
+        {
+          "slug": "green",
+          "color": "rgb(47,170,104)",
+          "name": "Green"
+        },
+        {
+          "slug": "blue",
+          "color": "rgb(71,100,180)",
+          "name": "Blue"
+        },
+        {
+          "slug": "beige",
+          "color": "rgb(235,230,210)",
+          "name": "Beige"
+        },
+        {
+          "slug": "grey",
+          "color": "rgb(230,230,230)",
+          "name": "Grey"
+        }
+      ]
     }
+  },
+  "styles": {
+    "blocks": {}
   }
 }
