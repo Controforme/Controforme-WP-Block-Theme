@@ -142,64 +142,6 @@
       "lineHeight": true,
       "textColumns": true,
       "dropCap": false,
-      "fontFamilies": [
-        {
-          "fontFamily": "\"SpaceGrotesk\", sans-serif",
-          "name": "Space Grotesk",
-          "slug": "SpaceGrotesk",
-          "fontFace": [
-            {
-              "fontFamily": "SpaceGrotesk",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SpaceGrotesk-Regular.woff2"]
-            },
-            {
-              "fontFamily": "SpaceGrotesk",
-              "fontWeight": "700",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SpaceGrotesk-Bold.woff2"]
-            }
-          ]
-        },
-        {
-          "fontFamily": "\"SpaceMono\", monospace",
-          "name": "Space Mono",
-          "slug": "SpaceMono",
-          "fontFace": [
-            {
-              "fontFamily": "SpaceMono",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SpaceMono-Regular.woff2"]
-            },
-            {
-              "fontFamily": "SpaceMono",
-              "fontWeight": "700",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SpaceMono-Bold.woff2"]
-            },
-            {
-              "fontFamily": "SpaceMono",
-              "fontWeight": "400",
-              "fontStyle": "italic",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SpaceMono-Italic.woff2"]
-            },
-            {
-              "fontFamily": "SpaceMono",
-              "fontWeight": "700",
-              "fontStyle": "italic",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/SpaceMono-BoldItalic.woff2"]
-            }
-          ]
-        }
-      ],
       "fontSizes": [
         {
           "slug": "extra-small",
