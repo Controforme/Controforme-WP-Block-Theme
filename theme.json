@@ -6,6 +6,15 @@
       "wideSize": "1100px"
     },
     "color": {
+      "gradients": [],
+      "customGradient": false,
+      "defaultGradients": false,
+      "duotone": [],
+      "customDuotone": false,
+      "defaultDuotone": false,
+      "link": true,
+      "defaultPalette": false,
+      "custom": false,
       "palette": [
         {
           "slug": "background",
@@ -14,17 +23,17 @@
         },
         {
           "slug": "text",
-          "color": "rgb(0,0,0)",
+          "color": "rgb(255,255,255)",
           "name": "Text"
         },
         {
           "slug": "text_hover",
-          "color": "rgba(0,0,0,0.7)",
+          "color": "rgba(255,255,255,0.7)",
           "name": "Text Hover"
         },
         {
           "slug": "white",
-          "color": "rgb(0,0,0)",
+          "color": "rgb(255,255,255)",
           "name": "White"
         },
         {
@@ -63,6 +72,9 @@
           "name": "Grey"
         }
       ]
+    },
+    "border": {
+      "color": true
     }
   },
   "styles": {
