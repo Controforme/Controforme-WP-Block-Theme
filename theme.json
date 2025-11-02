@@ -1,9 +1,12 @@
 {
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
   "settings": {
-    "layout": {
-      "contentSize": "840px",
-      "wideSize": "1100px"
+    "appearanceTools": true,
+    "border": {
+      "color": true,
+      "style": true,
+      "width": true
     },
     "color": {
       "gradients": [],
@@ -73,8 +76,157 @@
         }
       ]
     },
-    "border": {
-      "color": true
+    "dimensions": {
+      "aspectRatio": true,
+      "minHeight": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1340px"
+    },
+    "lightbox": {
+      "enabled": true,
+      "allowEditing": true
+    },
+    "position": {
+      "sticky": true
+    },
+    "shadow": {},
+    "spacing": {
+      "blockGap": true,
+      "margin": true,
+      "padding": true,
+      "customSpacingSize": false,
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "XXS",
+          "slug": "xxs",
+          "size": "5px"
+        },
+        {
+          "name": "XS",
+          "slug": "xs",
+          "size": "10px"
+        },
+        {
+          "name": "S",
+          "slug": "s",
+          "size": "20px"
+        },
+        {
+          "name": "M",
+          "slug": "m",
+          "size": "40px"
+        },
+        {
+          "name": "L",
+          "slug": "l",
+          "size": "80px"
+        },
+        {
+          "name": "XL",
+          "slug": "xl",
+          "size": "120px"
+        },
+        {
+          "name": "XXL",
+          "slug": "xxl",
+          "size": "160px"
+        }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "customFontSize": false,
+      "lineHeight": true,
+      "textColumns": true,
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "\"SpaceGrotesk\", sans-serif",
+          "name": "Space Grotesk",
+          "slug": "SpaceGrotesk",
+          "fontFace": [
+            {
+              "fontFamily": "SpaceGrotesk",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/SpaceGrotesk-Regular.woff2"]
+            },
+            {
+              "fontFamily": "SpaceGrotesk",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/SpaceGrotesk-Bold.woff2"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"SpaceMono\", monospace",
+          "name": "Space Mono",
+          "slug": "SpaceMono",
+          "fontFace": [
+            {
+              "fontFamily": "SpaceMono",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/SpaceMono-Regular.woff2"]
+            },
+            {
+              "fontFamily": "SpaceMono",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/SpaceMono-Bold.woff2"]
+            },
+            {
+              "fontFamily": "SpaceMono",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/SpaceMono-Italic.woff2"]
+            },
+            {
+              "fontFamily": "SpaceMono",
+              "fontWeight": "700",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/SpaceMono-BoldItalic.woff2"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "extra-small",
+          "size": "1rem",
+          "name": "Extra small"
+        },
+        {
+          "slug": "small",
+          "size": "1.125rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1.25rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "1.5rem",
+          "name": "Large"
+        },
+        {
+          "slug": "extra-large",
+          "size": "2.5rem",
+          "name": "Extra large"
+        }
+      ]
     }
   },
   "styles": {
