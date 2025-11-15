@@ -9,3 +9,28 @@ Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+/*
+ * Additional block styling
+ * Main settings in theme.json
+ */
+
+/*
+ * Reset
+ */
+* {
+	transition: all 500ms;
+}
+
+/* 
+ * Header
+ */
+/* Site title and logo alignment */
+.wp-block-site-logo {
+	width: 50px!important;
+	margin-top: 0.25em!important;
+}
+/* horizontal scroll on mobile*/
+header {
+	overflow-x: scroll;
+}

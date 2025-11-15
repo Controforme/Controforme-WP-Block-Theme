@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Header navigation",
+	"slug": "header-navigation",
+	"blockTypes": [ "core/navigation" ],
+	"styles": {
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--text)!important"
+					}
+				},
+				"border": {
+					"color": "var(--wp--preset--color--link)",
+					"left": {
+						"style": "solid",
+						"width": "1px"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--link)!important"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0",
+						"left": "10px",
+						"right": "10px",
+						"top": "0"
+					}
+				}
+			}
+		}
+	}
+}
+
