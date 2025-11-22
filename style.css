@@ -23,6 +23,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 /* 
+ * Buttons hover
+ */
+a.wp-block-button__link:hover {
+	background-color: var(--wp--preset--color--background);
+}
+
+/* 
  * Header
  */
 /* Site title and logo alignment */

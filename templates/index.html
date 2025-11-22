@@ -1,24 +1,29 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group">
-  <!-- wp:query -->
-  <div class="wp-block-query">
-    <!-- wp:post-template -->
-    <!-- wp:post-featured-image /-->
-    <!-- wp:post-title {"isLink":true} /-->
-    <!-- wp:post-author {"showAvatar":false} /-->
-    <!-- wp:post-date /-->
-    <!-- wp:post-terms {"term":"category"} /-->
-    <!-- wp:post-excerpt /-->
-    <!-- /wp:post-template -->
-    <!-- wp:query-pagination -->
-    <div class="wp-block-query-pagination">
-      <!-- wp:query-pagination-previous /-->
-      <!-- wp:query-pagination-next /-->
-    </div>
-    <!-- /wp:query-pagination -->
-  </div>
-  <!-- /wp:query -->
-</main>
+<!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"},"position":{"type":"sticky","top":"0px"}},"layout":{"type":"default"}} -->
+<header class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:template-part {"slug":"header","tagName":""} /--></header>
 <!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:query {"queryId":4,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"format":[]}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:post-featured-image /-->
+
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-author {"showAvatar":false} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /-->
+
+<!-- wp:post-terms {"term":"category"} /-->
+
+<!-- wp:post-excerpt /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
