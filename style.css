@@ -22,11 +22,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	transition: all 500ms;
 }
 
+/*
+ * General styling
+ */
+::selection {
+	background-color: var(--wp--preset--color--black);
+	color: var(--wp--preset--color--white);
+}
+
 /* 
  * Buttons hover
  */
 a.wp-block-button__link:hover {
 	background-color: var(--wp--preset--color--background);
+}
+
+/* 
+ * Read more hover
+ */
+a.wp-block-read-more:hover {
+	color: var(--wp--preset--color--text);
 }
 
 /* 

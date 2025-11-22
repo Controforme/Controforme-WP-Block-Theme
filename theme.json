@@ -270,6 +270,38 @@
 					}
 				}
 			},
+			"core/read-more": {
+				"color": {
+					"text": "var(--wp--preset--color--link)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--link)"
+						}
+					}
+				},
+				"typography": {
+					"textDecoration": "underline"
+				}
+			},
+			"core/separator": {
+				"border": {
+					"top": {
+						"style": "solid",
+						"width": "1px"
+					}
+				},
+				"color": {
+					"background": "var(--wp--preset--color--link)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--s)",
+						"top": "var(--wp--preset--spacing--s)"
+					}
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
